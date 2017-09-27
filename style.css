@@ -1,0 +1,29 @@
+html,
+body {
+  background-color: black;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.withbackground {
+  background: linear-gradient(to bottom right, #333300 38%, #ff5050 100%);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  max-width: 100;
+}
+
+.topportion .row .col-md-4 {
+  background: linear-gradient(to bottom right, #006666 38%, #ff6699 100%);
+}
+
+.col-md-12 h1 {
+  font-family: "Gloria Hallelujah", cursive;
+}
+
+.col-md-12 img.img-responsive {
+  width: 30em;
+}
