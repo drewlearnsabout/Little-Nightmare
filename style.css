@@ -1,5 +1,4 @@
-html,
-body {
+body, html {
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -13,7 +12,6 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  max-width: 100;
 }
 
 .topportion .row .col-md-4 {
@@ -24,6 +22,18 @@ body {
   font-family: "Gloria Hallelujah", cursive;
 }
 
+/* for the headerbanner
 .col-md-12 img.img-responsive {
-  width: 30em;
+  width: 35em;
+}
+*/
+.col-md-12 h2 {
+  color: white;
+  font-family: "Gloria Hallelujah", cursive;
+    background: linear-gradient(to bottom right, #333300 38%, #ff5050 100%);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  max-width: 100;
 }
