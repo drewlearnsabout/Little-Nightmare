@@ -6,6 +6,32 @@ body, html {
   background-size: cover;
 }
 
+.introportion {
+  /*background-color: black; */
+  background-color: black;
+}
+
+.introportion .navbar button {
+  background-color: gray;
+  border: 2px solid white;
+  border-radius: 10px;
+}
+
+.introportion .navbar-brand {
+  font-family: 'Ribeye Marrow', cursive;
+}
+
+/* -- For text inside navigation bar -- */
+.navbar-nav a {
+  color: white;
+  background: linear-gradient(to bottom right, #333300 38%, #ff5050 100%);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: "Gloria Hallelujah", cursive;
+}
+
 .withbackground {
   background: linear-gradient(to bottom right, #333300 38%, #ff5050 100%);
   -webkit-background-size: cover;
@@ -14,26 +40,30 @@ body, html {
   background-size: cover;
 }
 
-.topportion .row .col-md-4 {
-  background: linear-gradient(to bottom right, #006666 38%, #ff6699 100%);
-}
-
 .col-md-12 h1 {
-  font-family: "Gloria Hallelujah", cursive;
+  font-family: 'Ribeye Marrow', cursive;
 }
 
-/* for the headerbanner
-.col-md-12 img.img-responsive {
-  width: 35em;
+/*for the headerbanner*/
+.col-md-12 img {
+  width: 25px;
 }
-*/
+
 .col-md-12 h2 {
   color: white;
-  font-family: "Gloria Hallelujah", cursive;
+  font-family: 'Ribeye Marrow', cursive;
     background: linear-gradient(to bottom right, #333300 38%, #ff5050 100%);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   max-width: 100;
+}
+
+.middlebackground {
+  background-color: black;
+}
+
+.middlebackground {
+  radius-border: 15px;
 }
